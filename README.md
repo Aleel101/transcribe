@@ -6,13 +6,21 @@ A simple Streamlit app template for you to modify!
 
 ### How to run it on your own machine
 
-1. Install the requirements
+1. create a new virtual environment 
+   ```
+   Click the search bar and type >create environment
+   ```
+
+2. Activate your virtual environment
+   go to terminal and type .venv/Scripts/activate (windows) or .venv/bin/activate (macOS)
+
+3. Install the requirements
 
    ```
    $ pip install -r requirements.txt
    ```
 
-2. Run the app
+4. Run the app
 
    ```
    $ streamlit run streamlit_app.py
